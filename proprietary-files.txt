@@ -1,4 +1,4 @@
-# curtana package version: QKQ1.191215.002 V11.0.10.0.QJWMIXM, unless stated otherwise
+# joyeuse  package version: QKQ1.191215.002 V11.0.5.0.QJZMIXM, unless stated otherwise
 
 # ACDB loader
 vendor/lib64/libacdb-fts.so
@@ -19,9 +19,6 @@ vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
-vendor/lib/soundfx/libdirac.so
-vendor/lib/libDiracAPI_SHARED.so
-vendor/etc/diracmobile.config
 
 # ADSP Modules
 vendor/lib/rfsa/adsp/dirac_resource.dar
@@ -758,7 +755,6 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 
 # Thermal
-vendor/bin/thermal-engine
 vendor/lib64/libthermalclient.so
 vendor/lib/hw/thermal.atoll.so
 vendor/lib/libthermalclient.so
@@ -986,3 +982,8 @@ vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdhdcpservice_proprietary.so
 vendor/lib/libwfdmodulehdcpsession.so
+
+# Dirac - from Xiaomi
+vendor/lib/soundfx/libdirac.so 
+vendor/lib/libDiracAPI_SHARED.so
+vendor/etc/diracmobile.config
