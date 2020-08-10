@@ -32,4 +32,16 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <resources>
     <!-- Enable doze mode -->
     <bool name="doze_display_state_supported">true</bool>
+
+    <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
+    <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
+
+     <!-- For how long the lock screen can be on before the display turns off. -->
+     <integer name="config_lockScreenDisplayTimeout">7000</integer>
+
+     <!-- Allow devices to enforce the H265 encoder for screen recordings -->
+     <bool name="config_useNewScreenRecEncoder">false</bool>
+
+    <!-- FPSInfoService Fps file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
 </resources>
