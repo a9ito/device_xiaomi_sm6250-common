@@ -178,16 +178,27 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
 
 # Radio
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.radio.multisim.config=dsds \
-    persist.vendor.data.mode=concurrent \
-    persist.vendor.radio.apm_sim_not_pwdn=1 \
-    persist.vendor.radio.atfwd.start=true \
-    persist.vendor.radio.custom_ecc=1 \
-    persist.vendor.radio.rat_on=combine \
-    persist.vendor.radio.sib16_support=1 \
-    ro.telephony.default_network=22,22 \
-    ro.vendor.use_data_netmgrd=true
+   DEVICE_PROVISIONED=1
+   persist.data.df.dev_name=rmnet_usb0
+   persist.radio.atfwd.start=false
+   persist.radio.multisim.config=dsds
+   persist.vendor.data.iwlan.enable=true
+   persist.vendor.data.mode=concurrent
+   persist.vendor.radio.apm_sim_not_pwdn=1
+   persist.vendor.radio.custom_ecc=1
+   persist.vendor.radio.data_con_rprt=1
+   persist.vendor.radio.enable_temp_dds=true
+   persist.vendor.radio.enableadvancedscan=true
+   persist.vendor.radio.procedure_bytes=SKIP
+   persist.vendor.radio.rat_on=combine
+   persist.vendor.radio.sib16_support=1
+   persist.vendor.radio.snapshot_enabled=1
+   persist.vendor.radio.snapshot_timer=5
+   ril.subscription.types=NV,RUIM
+   ro.telephony.default_network=22,20
+   ro.telephony.iwlan_operation_mode=legacy
+   ro.vendor.use_data_netmgrd=true
+   telephony.lteOnCdmaDevice=1
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     DEVICE_PROVISIONED=1 \
