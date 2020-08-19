@@ -1,5 +1,5 @@
 #Build FP to be picked by both system and vendor
-BUILD_FINGERPRINT := google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys
+BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
