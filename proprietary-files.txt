@@ -759,6 +759,10 @@ vendor/lib64/libthermalclient.so
 vendor/lib/hw/thermal.atoll.so
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalfeature.so
+vendor/bin/thermal-engine
+vendor/bin/thermal-engine-camera.conf 
+vendor/bin/thermal-engine-normal.conf
+vendor/bin/thermal-engine.conf
 
 # Time services
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um
