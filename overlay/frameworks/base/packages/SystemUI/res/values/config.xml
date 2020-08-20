@@ -43,5 +43,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
      <bool name="config_useNewScreenRecEncoder">false</bool>
 
     <!-- FPSInfoService Fps file path -->
-    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
+     <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/sde-crtc-0/measured_fps</string>
+
 </resources>
+
