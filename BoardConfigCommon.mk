@@ -26,6 +26,15 @@ COMMON_PATH := device/xiaomi/sm6250-common
 
 BOARD_VENDOR := xiaomi
 
+# Broken R
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
+
+# Permissive
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := atoll
 TARGET_NO_BOOTLOADER := true
