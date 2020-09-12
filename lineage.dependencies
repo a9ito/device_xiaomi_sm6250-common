@@ -1,7 +1,7 @@
 [
 
  {
-    "repository": " device_redmi_joyeuse ",
+    "repository": " device/xiaomi/joyeuse ",
     "target_path": device/xiaomi/joyeuse"
   },
 
@@ -11,12 +11,8 @@
  },
 
   {
-    "repository": "android_kernel_redmi_sm6250",
+    "repository": "kernel/redmi/sm6250",
     "target_path": "kernel/xiaomi/sm6250"
-  },
-  {
-    "repository": "android_vendor_xiaomi_joyeuse",
-    "target_path": "vendor/xiaomi/joyeuse"
   },
 ]
 
