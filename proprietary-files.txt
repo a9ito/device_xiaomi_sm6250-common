@@ -788,6 +788,10 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
+# VNDK
+vendor/lib/vndk-sp/libcutils.so|7276c71299f501f1de8469b8bf1baffcf60180f3
+vendor/lib/vndk/libprocessgroup.so|164204f6902c40dc438c064c88afd0e2749c93f4
+
 # Vibrator Firmware
 vendor/firmware/drv2624.bin
 vendor/firmware/Drv2624Date.ini
